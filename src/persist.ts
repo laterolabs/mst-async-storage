@@ -1,4 +1,5 @@
-const AsyncStorage = require("@react-native-async-storage/async-storage")
+// const AsyncStorage = require("@react-native-async-storage/async-storage")
+import AsyncStorage from "@react-native-async-storage/async-storage"
 
 export async function save(key: string, snapshot: {}) {
   const data = JSON.stringify(snapshot)
